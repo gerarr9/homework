@@ -1,3 +1,5 @@
+import transport.Car;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -10,19 +12,18 @@ public class Main {
        human artem = new human("Артем","Москва",1995,"Директор по развитию бизнеса");
        artem.say();
        System.out.println("////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////");
-       Car lada = new Car("Lada","Granta",2015,"Russia","Yellow",1.7);
-       lada.setting();
-       Car audio = new Car("Audi","A8 50 L TDI quattro",2020,"Германии","черный",3.0);
-       audio.setting();
-       Car bmw = new Car("BMW","Z8",2021,"Германии","черный",3.0);
-       bmw.setting();
-       Car kia = new Car("Kia","Sportage",2018,"Южной Корее","красный",2.4);
-       kia.setting();
-       Car hundai = new Car("Hyundai","Avante",2016,"Южной Корее","оранжевый",1.6);
-       hundai.setting();
 
 
+      Flower rosa = new Flower("Roza","Голландии",35.59,1);
+      rosa.stats();
 
+      Flower hrizontema = new Flower("Hrizontema","",15  ,5);
+      hrizontema.stats();
 
+       Flower pion = new Flower("Pion","Angliya",69.9  ,1);
+       pion.stats();
+
+       Flower gipsophila = new Flower("Gipsophila","Turkey",19.5  ,10);
+       gipsophila.stats();
     }
 }
